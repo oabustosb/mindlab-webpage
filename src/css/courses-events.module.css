@@ -1,0 +1,89 @@
+.title-block {
+    text-align: center;
+    margin: 40px 0 60px 0;
+    line-height: 20px;
+}
+
+.title-block>h1 {
+    text-transform: uppercase;
+    font-size: 30pt;
+    padding-bottom: 40px;
+}
+
+.title-block>p {
+    width: 65%;
+    margin: auto;
+    font-size: 1.1em;
+}
+
+.courses-body {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.courses-list {
+    width: 45%;
+    margin-right: 5%;
+    list-style: none;
+}
+
+.courses-list>div {
+    border: 2px solid #e33;
+    background-color: #ccc;
+    padding: 3px 15px 3px 15px;
+    margin-bottom: 9px;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+.courses-list ul {
+    list-style: none;
+    margin: 7px 0 35px 30px;
+}
+
+.courses-list ul li {
+    border: 2px solid #e33;
+    color: black;
+    background-color: #ccc;
+    padding: 3px 15px 3px 15px;
+    margin: 14px 0 2px 0;
+    font-size: 1.1em;
+}
+
+.courses-list a {
+    text-decoration: none;
+}
+
+.courses-list ul li:hover {
+    background-color: #e33;
+}
+
+hr {
+    visibility: hidden;
+    height: 40px;
+}
+
+.separator {
+    visibility: hidden;
+    height: 0px;
+}
+
+
+
+@media screen and (max-width: 868px) {
+
+    .courses-body {
+        display: inline;
+    }
+
+    .courses-list {
+        width: 90%;
+        margin: 30px auto 30px auto;
+    }
+
+    .separator {
+        height: 17px;
+    }
+
+}

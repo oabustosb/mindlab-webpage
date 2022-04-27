@@ -1,0 +1,22 @@
+.title-block {
+    text-align: center;
+    margin: 40px 0 60px 0;
+    line-height: 20px;
+}
+
+.title-block h1 {
+    text-transform: uppercase;
+    font-size: 30pt;
+    padding-bottom: 20px;
+}
+
+.title-block p {
+    width: 65%;
+    margin: auto;
+    font-size: 1.1em;
+}
+
+
+.staff {
+    justify-content: left;
+}

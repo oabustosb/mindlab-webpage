@@ -1,0 +1,87 @@
+.title-block {
+    text-align: center;
+    margin: 40px 0 60px 0;
+    line-height: 20px;
+}
+
+.title-block>h1 {
+    text-transform: uppercase;
+    font-size: 30pt;
+}
+
+.map-block {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0 60px 0;
+}
+
+.map-block>iframe {
+    border: 0;
+}
+
+.interest {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+
+.interest h3 {
+    width: 20%;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.3em;
+    float: left;
+}
+
+.interest ul {
+    margin-left: 1%;
+}
+
+.interest li {
+    padding: 2px 0 2px 0;
+    font-size: 1.1em;
+}
+
+.invitation {
+    display: flex;
+    margin: auto;
+    background-color: #fff;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 4%;
+    clear: both;
+}
+
+.invitation p {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 8%; 
+}
+
+.invitation .invitationimg {
+    margin: 10px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .interest {
+        display: inline-block;
+        min-width: 100%;
+    }
+    .interest h3 {
+        width: 100%;
+    }
+    .interest ul {
+        width: 95%;
+        margin-left: 8%;
+    }
+    .invitation {
+        display: inline-block;
+    }
+    .invitation p {
+        text-align: center;
+        margin-right: 0%;
+    }
+}

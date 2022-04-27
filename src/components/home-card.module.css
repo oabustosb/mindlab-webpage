@@ -1,0 +1,29 @@
+.card-label {
+    position: relative;
+    float: left;
+    background-color: #1a5276;
+    color: #fff;
+    padding: 0 20px 0 20px;
+    font-weight: bold;
+}
+
+.card {
+    margin: 2%;
+    position: relative;
+    float: left;
+    width: 45%;
+    height: auto;
+}
+
+.card :hover {
+    opacity: 0.8;
+}
+
+
+@media screen and (max-width: 768px) {
+    .card {
+        width: 95%;
+        clear: both;
+        padding-bottom: 3%;
+    }
+}

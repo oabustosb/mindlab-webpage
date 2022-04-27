@@ -1,0 +1,83 @@
+.title-block {
+    text-align: center;
+    margin: 40px 0 60px 0;
+    line-height: 20px;
+}
+
+.title-block>h1 {
+    text-transform: uppercase;
+    font-size: 30pt;
+    line-height: 45px;
+}
+
+.title-block>h2 {
+    font-size: 20pt;
+    line-height: 30px;
+}
+
+.start-block {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px 0 30px 0;
+}
+
+.start-block>div {
+    max-width: 60%;
+    margin-right: 15px;
+}
+
+.start-block .startimg {
+    margin: auto;
+}
+
+.card-grid {
+    margin: 2% 0 2% 0;
+    clear: both;
+}
+
+.invitation {
+    display: flex;
+    margin: auto;
+    background-color: #fff;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 4%;
+    clear: both;
+}
+
+.invitation p {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 8%; 
+}
+
+.invitation .invitationimg {
+    margin: 10px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .invitation {
+        display: inline-block;
+    }
+    .invitation p {
+        text-align: center;
+        margin-right: 0%;
+    }
+    .start-block {
+        display: inline-block;
+        align-items: center;
+    }
+    .start-block>div {
+        max-width: 100%;
+    }
+    .start-block h3 {
+        text-align: center;
+    }
+    .start-block .startimg {
+        display: none;
+    } 
+
+}

@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+
+.footer {
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    padding: 10px;
+    color: #fff;
+    background-color: #000;
+    min-height: 100px;
+    overflow: auto;
+    font-size: 14px;
+    align-items: center;
+}
+
+.footer .quote p {
+    width: 60%;
+    text-align: right;
+    font-style: italic;
+    float: right;
+    margin-right: 20px;
+    font-size: 1.2em;
+}
+
+.footer .quote p>span{
+    font-weight: bold;
+}
+
+@media screen and (max-width:768px) {
+    .footer .quote p {
+        font-size: 1.1em;
+    }
+}

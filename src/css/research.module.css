@@ -1,0 +1,46 @@
+.title-block {
+    text-align: center;
+    margin: 40px 0 60px 0;
+    line-height: 20px;
+}
+
+.title-block>h1 {
+    text-transform: uppercase;
+    font-size: 30pt;
+    padding-bottom: 40px;
+}
+
+.title-block>p {
+    width: 65%;
+    margin: auto;
+    font-size: 1.1em;
+}
+
+.research-title {
+    padding-top: 10px;
+}
+
+.research-title h2 {
+    background-color: #1a5276;
+    color: #fff;
+    padding: 9px 0 9px 20px;
+    font-size: 1.2em;
+    margin: 10px 0 20px 0;
+}
+
+.research-image {
+    max-width: 48%;
+    min-width: 36%;
+    margin: 25px 40px 0 15px;
+}
+
+@media screen and (max-width:768px) {
+
+    .research-image {
+        max-width: 90%;
+        min-width: 36%;
+        margin: auto;
+    }
+    
+}
+
