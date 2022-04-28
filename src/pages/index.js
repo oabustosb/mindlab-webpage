@@ -13,7 +13,7 @@ const HomePage = () => {
 
         <div className={titleBlock}>
           <h1>Welcome to MindLab!</h1> 
-          <h2>Machine Learning and Quantum Computing Lab</h2>
+          <h2>Machine Learning, Perception and Discovery Lab </h2>
         </div>
 
         <div className={startBlock}>
